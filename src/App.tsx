@@ -1,19 +1,13 @@
 import React from 'react';
-import {Button} from './components/button'
+import { ExperienceBar } from './components/ExperienceBar';
+import './styles/global.css';
+//dentro do react sempre importar as coisas no App.tsx e não no index.html, é um pattern do react
 
 //App é um componente do react que cria conteúdo em HTML
 function App() {
   return (
-    <div>
-      <Button color="red">
-        Botão 1
-      </Button>
-      <Button color="green">
-        Botão 2
-      </Button>
-      <Button color="blue">
-        Botão 3
-      </Button>
+    <div className="container">
+      <ExperienceBar></ExperienceBar>
     </div>
 
   );
