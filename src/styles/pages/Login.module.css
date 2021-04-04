@@ -1,0 +1,18 @@
+.rootContainer {
+    background: var(--blue);
+}
+
+.loginContainer{
+    height: 100vh;/* vh = 100% da altura total*/
+    margin: 0 auto; /*margin 0 auto centraliza tudo*/
+    flex-direction: column;
+    display: flex;
+    
+}
+.loginContainer section{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.25rem;
+    align-content: center;
+}

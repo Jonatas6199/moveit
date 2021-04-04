@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: left;
+
+    text-align: left;
+    margin-top: 8rem;
+    color: var(--white);
+}
+
+
+.container > p{
+    margin-top: 5rem;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    margin-bottom: 1.5rem;
+
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+.github{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.github > p{
+    margin-left:1rem;
+    opacity: 0.6;
+}
+.logar{
+    display: flex;
+    flex-direction: row;
+
+    width: 20%;
+    height: 3rem;
+
+    color: var(--white);
+    margin-top: 2rem;
+    
+}
+
+.logar >  input{
+   
+    
+    border: 0;
+    background: linear-gradient(90deg, #4953B8 0%, rgba(73, 83, 184, 0.2) 100%);
+    border-radius: 5px 0px 0px 5px;
+    color: var(--white);
+    text-align: left;
+    padding-left: 1rem;
+}
+.logar > button{
+    
+    width: 100;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    background: var(--green);
+
+    left: 1160px;
+    top: 541px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+
+
+
