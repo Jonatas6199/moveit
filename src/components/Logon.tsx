@@ -19,7 +19,7 @@ export function Logon(){
             </div>
             
             <div className={styles.logar}>
-                <input type="text"></input>
+                <input type="text" placeholder="Digite seu username"></input>
                 <button onClick={homePage}>
                     <img src="icons/arrow.svg" alt="Logar"></img>
                 </button>
